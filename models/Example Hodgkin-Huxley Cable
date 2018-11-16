@@ -1,0 +1,21 @@
+N2A.schema=1
+$metadata
+ id=166b015ccdaee40f
+$p=$t<100ms
+$t'=0.01ms
+C
+ $inherit=Coupling
+  0=166b015ccda56f33
+ $p=A.$index==B.$index-1
+ A=HH
+ B=HH
+HH
+ $inherit=Cell Hodgkin-Huxley
+  0=166b015ccda6e28b
+ $n=3
+ $xyz=[($index+1)*length;0;0]
+ I=+20(uA/cm2)*surfaceArea@$index==0
+ diameter=1mm
+ length=:10mm
+ x0=output(V)
+ xyz0=:[$index*length;0;0]
