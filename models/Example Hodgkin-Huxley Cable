@@ -6,12 +6,22 @@ $t':0.01ms
 C
  $inherit:Coupling
   0:166b015ccda56f33
+ $metadata:
+  gui
+   bounds
+    x:75
+    y:158
  $p:A.$index==B.$index-1
  A:HH
  B:HH
 HH
  $inherit:Cell Hodgkin-Huxley
   0:166b015ccda6e28b
+ $metadata:
+  gui
+   bounds
+    x:312
+    y:157
  $n:3
  $xyz:[($index+1)*length;0;0]
  I:+20(uA/cm2)*surfaceArea@$index==0
