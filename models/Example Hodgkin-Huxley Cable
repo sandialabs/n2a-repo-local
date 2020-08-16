@@ -5,7 +5,8 @@ $p:$t<100ms
 $t':0.01ms
 C
  $inherit:Coupling
-  0:166b015ccda56f33
+  $metadata
+   id:166b015ccda56f33
  $metadata:
   gui
    bounds
@@ -16,7 +17,8 @@ C
  B:HH
 HH
  $inherit:Cell Hodgkin-Huxley
-  0:166b015ccda6e28b
+  $metadata
+   id:166b015ccda6e28b
  $metadata:
   gui
    bounds
