@@ -1,33 +1,36 @@
-N2A.schema=2
-$metadata
+N2A.schema=3
+$meta
  id:166b015ccdaee40f
 $p:$t<100ms
 $t':0.01ms
 C
  $inherit:Coupling
-  $metadata
+  $meta
    id:166b015ccda56f33
- $metadata:
+ $meta:
   gui
    bounds
-    x:75
-    y:158
+    open:1
+    x:5.77
+    y:12.15
  $p:A.$index==B.$index-1
  A:HH
  B:HH
 HH
  $inherit:Cell Hodgkin-Huxley
-  $metadata
+  $meta
    id:166b015ccda6e28b
- $metadata:
+ $meta:
   gui
    bounds
-    x:312
-    y:157
+    open:1
+    x:36.38
+    y:12.15
  $n:3
  $xyz:[($index+1)*length;0;0]
  I:+20(uA/cm2)*surfaceArea@$index==0
+ V:Vinit@$init
  diameter:1mm
- length::10mm
+ length:10mm
  x0:output(V)
- xyz0::[$index*length;0;0]
+ xyz0:[$index*length;0;0]
